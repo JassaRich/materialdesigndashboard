@@ -1,0 +1,1344 @@
+
+<!--========================================================= 
+    Item Name: Admin & Dashboard HTML Template.
+    Author: Jhathu Maharaj
+    Version: 1.0
+    Copyright 2025
+ ============================================================-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="admin, dashboard, crm, analytics, eCommerce, team, vendor, ai chat bot, backend, panel">
+	<meta name="description" content="Best multipurpose admin dashboard template.">
+	<meta name="author" content="Maraviya Infotech">
+
+	<title>Corex - Admin & Dashboard HTML Template</title>
+
+	<!-- App favicon -->
+	<link rel="shortcut icon" href="assets/img/favicon.png">
+
+	<!-- Icon CSS -->
+	<link href="assets/css/materialdesignicons.min.css" rel="stylesheet">
+	<link href="assets/css/remixicon.css" rel="stylesheet">
+
+	<!-- Vendor -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/apexcharts.css" rel="stylesheet">
+	<link href="assets/css/owl.carousel.min.css" rel="stylesheet">
+	<link href="assets/css/daterangepicker.css" rel="stylesheet">
+	<link href="assets/css/jquery.datatables.min.css" rel="stylesheet">
+	<link href="assets/css/datatables.bootstrap5.min.css" rel="stylesheet">
+	<link href="assets/css/slick.min.css" rel="stylesheet">
+
+	<!-- Main CSS -->
+	<link id="mainCss" href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body data-cx-mode="light">
+	
+	<main class="wrapper sb-default">
+		
+		<!-- Loader -->
+		<div id="cx-overlay">
+			<div class="loader">
+				<span>C</span>x.
+				<span class="shape"></span>
+			</div>
+		</div>
+
+		<!-- Sidebar -->
+		<div class="cx-sidebar-overlay"></div>
+		<div class="cx-sidebar">
+			<div class="cx-sidebar-head">
+				<a href="index.html" class="logo"><img src="assets/img/logo/full-logo.png" alt="logo"></a>
+			</div>
+			<div class="cx-sidebar-body">
+				<ul class="cx-sb-list">
+					<li class="cx-sb-item sb-drop-item">
+						<a href="javascript:void(0)" class="cx-drop-toggle">
+							<i class="ri-home-3-line"></i>
+							<span class="condense">Dashboard<i class="drop-arrow ri-arrow-down-s-line"></i></span>
+						</a>
+						<ul class="cx-sb-drop">
+							<li class="list">
+								<a href="index.html" class="cx-page-link drop">Modern</a>
+							</li>
+						</ul>
+					</li>
+					<li class="cx-sb-title condense"><span>Apps</span></li>
+					<li class="cx-sb-item sb-drop-item">
+						<a href="#" class="cx-drop-toggle">
+							<i class="ri-todo-line"></i>
+							<span class="condense">Todo</span>
+						</a>
+					</li>
+					<li class="cx-sb-item sb-drop-item">
+						<a href="#" class="cx-drop-toggle">
+							<i class="ri-message-3-line"></i>
+							<span class="condense">Chat</span>
+						</a>
+					</li>
+					<li class="cx-sb-item sb-drop-item">
+						<a href="#" class="cx-drop-toggle">
+							<i class="ri-calendar-2-line"></i>
+							<span class="condense">Calendar</span>
+						</a>
+					</li>
+					<li class="cx-sb-item sb-drop-item">
+						<a href="#" class="cx-drop-toggle">
+							<i class="ri-kanban-view"></i>
+							<span class="condense">Kanban</span>
+						</a>
+					</li>
+					<li class="cx-sb-item sb-drop-item">
+						<a href="#" class="cx-drop-toggle">
+							<i class="ri-contacts-book-3-line"></i>
+							<span class="condense">Contact</span>
+						</a>
+					</li>
+					<li class="cx-sb-item sb-drop-item">
+						<a href="javascript:void(0)" class="cx-drop-toggle">
+							<i class="ri-shopping-cart-line"></i>
+							<span class="condense">eCommerce<i class="drop-arrow ri-arrow-down-s-line"></i></span>
+						</a>
+						<ul class="cx-sb-drop">
+							<li class="list">
+								<a href="#" class="cx-page-link drop">Product List</a>
+							</li>
+							<li class="list">
+								<a href="#" class="cx-page-link drop">Add Product</a>
+							</li>
+							<li class="list">
+								<a href="#" class="cx-page-link drop">Update Product</a>
+							</li>
+							<li class="list">
+								<a href="#" class="cx-page-link drop">Product detail</a>
+							</li>
+							<li class="list">
+								<a href="#" class="cx-page-link drop">Add Category</a>
+							</li>
+							<li class="list">
+								<a href="#" class="cx-page-link drop">Add Sub Category</a>
+							</li>
+							<li class="list">
+								<a href="#" class="cx-page-link drop">Invoice</a>
+							</li>
+							<li class="list">
+								<a href="#" class="cx-page-link drop">Profile</a>
+							</li>
+						</ul>
+					</li>
+					<li class="cx-sb-title condense"><span>Pages</span></li>
+					<li class="cx-sb-item sb-drop-item">
+						<a href="javascript:void(0)" class="cx-drop-toggle">
+							<i class="ri-pass-valid-line"></i>
+							<span class="condense">Authentication<i class="drop-arrow ri-arrow-down-s-line"></i></span>
+						</a>
+						<ul class="cx-sb-drop">
+							<li class="list">
+								<a href="#" class="cx-page-link drop">Login</a>
+							</li>
+							<li class="list">
+								<a href="#" class="cx-page-link drop">Signup</a>
+							</li>
+							<li class="list">
+								<a href="#" class="cx-page-link drop">Forgot</a>
+							</li>
+							<li class="list">
+								<a href="#" class="cx-page-link drop">Reset</a>
+							</li>
+						</ul>
+					</li>
+					<li class="cx-sb-item sb-drop-item">
+						<a href="javascript:void(0)" class="cx-drop-toggle">
+							<i class="ri-service-line"></i>
+							<span class="condense">Services<i class="drop-arrow ri-arrow-down-s-line"></i></span>
+						</a>
+						<ul class="cx-sb-drop">
+							<li class="list">
+								<a href="#" class="cx-page-link drop">404 Error</a>
+							</li>
+							<li class="list">
+								<a href="#" class="cx-page-link drop">Maintenance</a>
+							</li>
+						</ul>
+					</li>
+					<li class="cx-sb-title condense"><span>Elements</span></li>
+					<li class="cx-sb-item sb-drop-item">
+						<a href="#" class="cx-drop-toggle">
+							<i class="ri-remixicon-line"></i>
+							<span class="condense">Remix Icons</span>
+						</a>
+					</li>
+					<li class="cx-sb-item sb-drop-item">
+						<a href="#" class="cx-drop-toggle">
+							<i class="mdi mdi-material-ui"></i>
+							<span class="condense">Material icons</span>
+						</a>
+					</li>
+					<li class="cx-sb-item sb-drop-item">
+						<a href="#" class="cx-drop-toggle">
+							<i class="ri-alarm-warning-line"></i>
+							<span class="condense">Alert Popup</span>
+						</a>
+					</li>
+					<li class="cx-sb-item sb-drop-item">
+						<a href="#" class="cx-drop-toggle">
+							<i class="ri-play-list-add-fill"></i>
+							<span class="condense">Accordions</span>
+						</a>
+					</li>
+					<li class="cx-sb-item sb-drop-item">
+						<a href="#" class="cx-drop-toggle">
+							<i class="ri-bar-chart-grouped-fill"></i>
+							<span class="condense">Apex Chart</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Notify sidebar -->
+		<div class="cx-notify-bar-overlay"></div>
+		<div class="cx-notify-bar">
+			<div class="cx-bar-title">
+				<h6>Notifications<span class="label">12</span></h6>
+				<a href="javascript:void(0)" class="close-notify"><i class="ri-close-line"></i></a>
+			</div>
+			<div class="cx-bar-content">
+				<ul class="nav nav-tabs" id="myTab" role="tablist">
+					<li class="nav-item" role="presentation">
+						<button class="nav-link active" id="alert-tab" data-bs-toggle="tab" data-bs-target="#alert"
+							type="button" role="tab" aria-controls="alert" aria-selected="true">Alert</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages"
+							type="button" role="tab" aria-controls="messages" aria-selected="false">Messages</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="nav-link" id="log-tab" data-bs-toggle="tab" data-bs-target="#log" type="button"
+							role="tab" aria-controls="log" aria-selected="false">Log</button>
+					</li>
+				</ul>
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active" id="alert" role="tabpanel" aria-labelledby="alert-tab">
+						<div class="cx-alert-list">
+							<ul>
+								<li>
+									<div class="icon cx-alert">
+										<i class="ri-alarm-warning-line"></i>
+									</div>
+									<div class="detail">
+										<div class="title">Your final report is overdue</div>
+										<p class="time">Just now</p>
+										<p class="message">Please submit your quarterly report before - June 15.</p>
+									</div>
+								</li>
+								<li>
+									<div class="icon cx-warn">
+										<i class="ri-error-warning-line"></i>
+									</div>
+									<div class="detail">
+										<div class="title">Your product campaign is stop!</div>
+										<p class="time">5:45AM - 25/05/2023</p>
+										<p class="message">Please submit your quarterly report before Jun 15.</p>
+									</div>
+								</li>
+								<li>
+									<div class="icon cx-success">
+										<i class="ri-check-double-line"></i>
+									</div>
+									<div class="detail">
+										<div class="title">Your payment is successfully processed</div>
+										<p class="time">9:20PM - 19/06/2023</p>
+										<p class="message">Check your account wallet. if there is any issue, create
+											support ticket.</p>
+									</div>
+								</li>
+								<li>
+									<div class="icon cx-warn">
+										<i class="ri-error-warning-line"></i>
+									</div>
+									<div class="detail">
+										<div class="title">Budget threshold exceeded!</div>
+										<p class="time">4:15AM - 01/04/2023</p>
+										<p class="message">Budget threshold was exceeded for project "finx" B612
+											elements.</p>
+									</div>
+								</li>
+								<li>
+									<div class="icon cx-warn">
+										<i class="ri-close-line"></i>
+									</div>
+									<div class="detail">
+										<div class="title">Project submission was decline!</div>
+										<p class="time">4:15AM - 01/04/2023</p>
+										<p class="message">Your project "B126" is declined by Theresa Mayeras.</p>
+									</div>
+								</li>
+								<li>
+									<div class="icon cx-success">
+										<i class="ri-check-double-line"></i>
+									</div>
+									<div class="detail">
+										<div class="title">Your payment is successfully processed</div>
+										<p class="time">9:20PM - 19/06/2023</p>
+										<p class="message">Check your account wallet. if there is any issue, create
+											support ticket.</p>
+									</div>
+								</li>
+								<li class="check"><a class="cx-primary-btn" href="#">View all</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+						<div class="cx-message-list">
+							<ul>
+								<li>
+									<a href="#" class="reply">Reply</a>
+									<div class="user">
+										<img src="assets/img/user/9.jpg" alt="user">
+										<span class="label online"></span>
+									</div>
+									<div class="detail">
+										<a href="#" class="name">Boris Whisli</a>
+										<p class="time">5:30AM, Today</p>
+										<p class="message">Hello, I am sending some file. Please use this in landing
+											page. And make sure this all files are comppress.</p>
+										<span class="download-files">
+											<span class="download">
+												<img src="assets/img/other/1.jpg" alt="image">
+												<a href="javascript:void(0)"><i class="ri-download-2-line"></i></a>
+											</span>
+											<span class="download">
+												<img src="assets/img/other/2.jpg" alt="image">
+												<a href="javascript:void(0)"><i class="ri-download-2-line"></i></a>
+											</span>
+											<span class="download">
+												<span class="file">
+													<i class="ri-file-ppt-line"></i>
+												</span>
+												<a href="javascript:void(0)"><i class="ri-download-2-line"></i></a>
+											</span>
+										</span>
+									</div>
+								</li>
+								<li>
+									<a href="#" class="reply">Reply</a>
+									<div class="user">
+										<img src="assets/img/user/8.jpg" alt="user">
+										<span class="label offline"></span>
+									</div>
+									<div class="detail">
+										<a href="#" class="name">Frank N. Stein</a>
+										<p class="time">8:30PM, 05/12/2023</p>
+										<p class="message">Please take a look on landing page. There is some bus to open
+											popup model. and save form data.</p>
+									</div>
+								</li>
+								<li>
+									<a href="#" class="reply">Reply</a>
+									<div class="user">
+										<img src="assets/img/user/7.jpg" alt="user">
+										<span class="label busy"></span>
+									</div>
+									<div class="detail">
+										<a href="#" class="name">Frank N. Stein</a>
+										<p class="time">8:30PM, 05/12/2023</p>
+										<p class="message">Please take a look on landing page. There is some bus to open
+											popup model. and save form data.</p>
+										<span class="download-files">
+											<span class="download">
+												<span class="file">
+													<i class="ri-file-zip-line"></i>
+												</span>
+												<a href="javascript:void(0)"><i class="ri-download-2-line"></i></a>
+											</span>
+											<span class="download">
+												<span class="file">
+													<i class="ri-file-text-line"></i>
+												</span>
+												<a href="javascript:void(0)"><i class="ri-download-2-line"></i></a>
+											</span>
+											<span class="download">
+												<span class="file">
+													<i class="ri-file-ppt-line"></i>
+												</span>
+												<a href="javascript:void(0)"><i class="ri-download-2-line"></i></a>
+											</span>
+										</span>
+									</div>
+								</li>
+								<li>
+									<a href="#" class="reply">Reply</a>
+									<div class="user">
+										<img src="assets/img/user/6.jpg" alt="user">
+										<span class="label busy"></span>
+									</div>
+									<div class="detail">
+										<a href="#" class="name">Paige Turner</a>
+										<p class="time">4:30PM, 12/12/2023</p>
+										<p class="message">Landing page issues are done. and now i am working on admin
+											user module.</p>
+									</div>
+								</li>
+								<li>
+									<a href="#" class="reply">Reply</a>
+									<div class="user">
+										<img src="assets/img/user/5.jpg" alt="user">
+										<span class="label busy"></span>
+									</div>
+									<div class="detail">
+										<a href="#" class="name">Allie Grater</a>
+										<p class="time">8:30PM, 05/12/2023</p>
+										<p class="message">Take marketing module task.</p>
+									</div>
+								</li>
+								<li class="check"><a class="cx-primary-btn" href="#">View all</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="log" role="tabpanel" aria-labelledby="log-tab">
+						<div class="cx-activity-list activity-list">
+							<ul>
+								<li>
+									<span class="date-time">8 Thu<span class="time">11:30 AM - 05:10 PM
+										</span></span>
+									<p class="title">Project Submitted from Smith</p>
+									<p class="detail">Lorem Ipsum is simply dummy text of the printing and
+										lorem is typesetting industry.</p>
+									<span class="download-files">
+										<span class="download">
+											<img src="assets/img/other/1.jpg" alt="image">
+											<a href="javascript:void(0)"><i class="ri-download-2-line"></i></a>
+										</span>
+										<span class="download">
+											<img src="assets/img/other/2.jpg" alt="image">
+											<a href="javascript:void(0)"><i class="ri-download-2-line"></i></a>
+										</span>
+										<span class="download">
+											<span class="file">
+												<i class="ri-file-ppt-line"></i>
+											</span>
+											<a href="javascript:void(0)"><i class="ri-download-2-line"></i></a>
+										</span>
+									</span>
+								</li>
+								<li>
+									<span class="date-time warn">7 Wed<span class="time">1:30 PM - 02:30 PM
+										</span></span>
+									<p class="title">Morgus pvt - project due</p>
+									<p class="detail">Project modul delay for some bugs.</p>
+									<span class="download-files">
+										<span class="download">
+											<span class="file">
+												<i class="ri-file-zip-line"></i>
+											</span>
+											<a href="javascript:void(0)"><i class="ri-download-2-line"></i></a>
+										</span>
+										<span class="download">
+											<span class="file">
+												<i class="ri-file-text-line"></i>
+											</span>
+											<a href="javascript:void(0)"><i class="ri-download-2-line"></i></a>
+										</span>
+										<span class="download">
+											<img src="assets/img/other/3.jpg" alt="image">
+											<a href="javascript:void(0)"><i class="ri-download-2-line"></i></a>
+										</span>
+									</span>
+								</li>
+								<li>
+									<span class="date-time">6 Tue<span class="time">9:30 AM - 11:00 AM
+										</span></span>
+									<p class="title">Interview for management dept.</p>
+									<p class="detail">There are many variations of passages of Lorem Ipsum
+										available, but the majority have suffered alteration in some form,
+										by injected humour.</p>
+									<span class="download-files">
+										<span class="download">
+											<span class="file">
+												<i class="ri-file-zip-line"></i>
+											</span>
+											<a href="javascript:void(0)"><i class="ri-download-2-line"></i></a>
+										</span>
+										<span class="download">
+											<span class="file">
+												<i class="ri-file-text-line"></i>
+											</span>
+											<a href="javascript:void(0)"><i class="ri-download-2-line"></i></a>
+										</span>
+										<span class="download">
+											<span class="file">
+												<i class="ri-file-ppt-line"></i>
+											</span>
+											<a href="javascript:void(0)"><i class="ri-download-2-line"></i></a>
+										</span>
+									</span>
+								</li>
+								<li>
+									<span class="date-time">5 Mon<span class="time">3:30 AM - 4:00 PM
+										</span></span>
+									<p class="title">Meeting with mr. Ken doe</p>
+									<p class="detail">The majority have suffered alteration in some form,
+										by injected humour.</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Header -->
+		<header class="cx-header">
+			<div class="cx-header-items">
+				<div class="left-header">
+					<a href="javascript:void(0)" class="cx-toggle-sidebar">
+						<span class="outer-ring">
+							<span class="inner-ring"></span>
+						</span>
+					</a>
+					<div class="header-search-box">
+						<div class="header-search-drop">
+							<a href="javascript:void(0)" class="open-search"><i class="ri-search-line"></i></a>
+							<form class="cx-search">
+								<input class="search-input" type="text" placeholder="Search...">
+								<a href="javascript:void(0)" class="search-btn"><i class="ri-search-line"></i>
+								</a>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="right-header">
+					<div class="cx-header-logo">
+						<img src="assets/img/logo/full-logo-dark.png" alt="logo" class="dark-logo">
+						<img src="assets/img/logo/full-logo.png" alt="logo" class="white-logo">
+					</div>
+					<div class="inner-right-header">
+						<div class="cx-right-tool cx-flag-drop language">
+							<div class="cx-hover-drop">
+								<div class="cx-hover-tool">
+									<img class="flag" src="assets/img/flag/us.png" alt="flag">
+								</div>
+								<div class="cx-hover-drop-panel right">
+									<ul>
+										<li><a href="javascript:void(0)"><img class="flag" src="assets/img/flag/us.png"
+													alt="flag">English</a></li>
+										<li><a href="javascript:void(0)"><img class="flag" src="assets/img/flag/in.png"
+													alt="flag">Hindi</a></li>
+										<li><a href="javascript:void(0)"><img class="flag" src="assets/img/flag/de.png"
+													alt="flag"> Deutsch</a></li>
+										<li><a href="javascript:void(0)"><img class="flag" src="assets/img/flag/it.png"
+													alt="flag">Italian</a></li>
+										<li><a href="javascript:void(0)"><img class="flag" src="assets/img/flag/jp.png"
+													alt="flag">Japanese</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="cx-right-tool apps">
+							<div class="cx-hover-drop">
+								<div class="cx-hover-tool">
+									<i class="ri-apps-2-line"></i>
+								</div>
+								<div class="cx-hover-drop-panel right apps">
+									<h6 class="title">Apps</h6>
+									<ul>
+										<li><a href="javascript:void(0)"><img class="app" src="assets/img/apps/1.png"
+													alt="flag">Github</a></li>
+										<li><a href="javascript:void(0)"><img class="app" src="assets/img/apps/2.png"
+													alt="flag">Dribbble</a></li>
+										<li><a href="javascript:void(0)"><img class="app" src="assets/img/apps/3.png"
+													alt="flag">Dropbox</a></li>
+										<li><a href="javascript:void(0)"><img class="app" src="assets/img/apps/4.png"
+													alt="flag">Figma</a></li>
+										<li><a href="javascript:void(0)"><img class="app" src="assets/img/apps/5.png"
+													alt="flag">Meta</a></li>
+										<li><a href="javascript:void(0)"><img class="app" src="assets/img/apps/6.png"
+													alt="flag">AI Chat</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="cx-right-tool">
+							<a class="cx-notify" href="javascript:void(0)">
+								<i class="ri-notification-2-line"></i>
+								<span class="label"></span>
+							</a>
+						</div>
+						<div class="cx-right-tool display-dark">
+							<a class="cx-mode dark" href="javascript:void(0)"><i class="ri-moon-clear-line"></i></a>
+							<a class="cx-mode light" href="javascript:void(0)"><i class="ri-sun-line"></i></a>
+						</div>
+						<div class="cx-right-tool cx-user-drop">
+							<div class="cx-hover-drop">
+								<div class="cx-hover-tool">
+									<img class="user" src="assets/img/user/1.jpg" alt="user">
+								</div>
+								<div class="cx-hover-drop-panel right">
+									<div class="details">
+										<h6>James Pullman</h6>
+										<p>james@example.com</p>
+									</div>
+									<ul class="border-top">
+										<li><a href="#">Profile</a></li>
+										<li><a href="#">Help</a></li>
+										<li><a href="#">Messages</a></li>
+									</ul>
+									<ul class="border-top">
+										<li><a href="#"><i class="ri-logout-circle-r-line"></i>Logout</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Main Content -->
+		<div class="cx-main-content">
+			<div class="cx-breadcrumb">
+				<div class="cx-page-title">
+					<h5>Dashboard</h5>
+					<ul>
+						<li><a href="index.html">Corex</a></li>
+						<li><a href="index.html">Modern</a></li>
+						<li>Dashboard</li>
+					</ul>
+				</div>
+				<div class="cx-tools">
+					<a href="javascript:void(0)" class="refresh" data-bs-toggle="tooltip" aria-label="Refresh"
+						data-bs-original-title="Refresh"><i class="ri-refresh-line"></i></a>
+					<div class="filter m-l-10">
+						<div class="dropdown" data-bs-toggle="tooltip" data-bs-original-title="Filter">
+							<a class="dropdown-toggle" href="javascript:void(0)" data-bs-toggle="dropdown" aria-expanded="false">
+								<i class="ri-sound-module-line"></i>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Deal</a></li>
+								<li><a class="dropdown-item" href="#">Revenue</a></li>
+								<li><a class="dropdown-item" href="#">Expense</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xxl-12">
+					<div class="cx-statistics">
+						<div class="owl-carousel label-cards">
+							<div class="cx-card card-1 cx-label-card">
+								<div class="cx-card-content">
+									<div class="title">
+										<div class="growth-numbers">
+											<h5>Users</h5>
+											<h4>56.2k</h4>
+										</div>
+										<span class="icon"><i class="ri-exchange-dollar-line"></i></span>
+									</div>
+									<p class="card-groth up">
+										<i class="ri-arrow-up-line"></i>
+										9%
+										<span>Last Month</span>
+									</p>
+									<div class="mini-chart">
+										<div id="userNumbers"></div>
+									</div>
+								</div>
+							</div>
+							<div class="cx-card card-2 cx-label-card">
+								<div class="cx-card-content">
+									<div class="title">
+										<div class="growth-numbers">
+											<h5>Campaign</h5>
+											<h4>$98k</h4>
+										</div>
+										<span class="icon"><i class="ri-shield-user-line"></i></span>
+									</div>
+									<p class="card-groth up">
+										<i class="ri-arrow-up-line"></i>
+										25%
+										<span>Last Month</span>
+									</p>
+									<div class="mini-chart">
+										<div id="campaignNumbers"></div>
+									</div>
+								</div>
+							</div>
+							<div class="cx-card card-3 cx-label-card">
+								<div class="cx-card-content">
+									<div class="title">
+										<div class="growth-numbers">
+											<h5>Lead</h5>
+											<h4>76%</h4>
+										</div>
+										<span class="icon"><i class="ri-shopping-bag-3-line"></i>
+										</span>
+									</div>
+									<p class="card-groth down">
+										<i class="ri-arrow-down-line"></i>
+										.5%
+										<span>Last Month</span>
+									</p>
+									<div class="mini-chart">
+										<div id="leadNumbers"></div>
+									</div>
+								</div>
+							</div>
+							<div class="cx-card card-4 cx-label-card">
+								<div class="cx-card-content">
+									<div class="title">
+										<div class="growth-numbers">
+											<h5>Revenue</h5>
+											<h4>$84k</h4>
+										</div>
+										<span class="icon"><i class="ri-money-dollar-circle-line"></i></span>
+									</div>
+									<p class="card-groth down">
+										<i class="ri-arrow-down-line"></i>
+										2.1%
+										<span>Last Month</span>
+									</p>
+									<div class="mini-chart">
+										<div id="revenueNumbers"></div>
+									</div>
+								</div>
+							</div>
+							<div class="cx-card card-5 cx-label-card">
+								<div class="cx-card-content">
+									<div class="title">
+										<div class="growth-numbers">
+											<h5>Expenses</h5>
+											<h4>$25k</h4>
+										</div>
+										<span class="icon"><i class="ri-exchange-dollar-line"></i></span>
+									</div>
+									<p class="card-groth up">
+										<i class="ri-arrow-up-line"></i>
+										9%
+										<span>Last Month</span>
+									</p>
+									<div class="mini-chart">
+										<div id="expensesNumbers"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xxl-8">
+					<div class="col-md-12">
+						<div class="cx-card revenue-overview">
+							<div class="cx-card-header border-0">
+								<h4 class="cx-card-title">Overview</h4>
+								<div class="header-tools">
+									<div class="cx-date-range date" title="Date">
+										<span></span>
+									</div>
+								</div>
+							</div>
+							<div class="cx-card-content">
+								<div class="cx-chart-header">
+									<div class="block">
+										<h6>Orders</h6>
+										<h5>825
+											<span class="up"><i class="ri-arrow-up-line"></i>24%</span>
+										</h5>
+									</div>
+									<div class="block">
+										<h6>Revenue</h6>
+										<h5>$89k
+											<span class="up"><i class="ri-arrow-up-line"></i>24%</span>
+										</h5>
+									</div>
+									<div class="block">
+										<h6>Expense</h6>
+										<h5>$68k
+											<span class="down"><i class="ri-arrow-down-line"></i>24%</span>
+										</h5>
+									</div>
+									<div class="block">
+										<h6>Profit</h6>
+										<h5>$21k
+											<span class="up"><i class="ri-arrow-up-line"></i>24%</span>
+										</h5>
+									</div>
+								</div>
+								<div class="cx-chart-content">
+									<div id="overviewChart"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="cx-card revenue-overview">
+							<div class="cx-card-header">
+								<h4 class="cx-card-title">Deals</h4>
+								<div class="header-tools">
+									<div class="cx-date-range dots">
+										<span></span>
+									</div>
+								</div>
+							</div>
+							<div class="cx-card-content card-default">
+								<div class="deal-table">
+									<div class="table-responsive">
+										<table id="lead-data-table" class="table">
+											<thead>
+												<tr>
+													<th>ID</th>
+													<th>Name</th>
+													<th>Date</th>
+													<th>Team</th>
+													<th>Status</th>
+													<th>Action</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td class="token">2650</td>
+													<td>
+														<span class="thumb">
+															<img class="cat-thumb" src="assets/img/clients/1.jpg" alt="clients Image">
+															<span class="name">Monsy Pvt.</span>
+														</span>
+													</td>
+													<td>15/01/2023</td>
+													<td>Zara nails</td>
+													<td class="active">ACTIVE</td>
+													<td>
+														<div class="dropdown">
+															<button type="button"
+																class="btn dropdown-toggle dropdown-toggle-split"
+																data-bs-toggle="dropdown" aria-haspopup="true"
+																aria-expanded="false" data-display="static">
+																<span class="sr-only"><i
+																		class="ri-settings-3-line"></i></span>
+															</button>
+															<div class="dropdown-menu">
+																<a class="dropdown-item" href="#">Edit</a>
+																<a class="dropdown-item" href="#">Delete</a>
+															</div>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="token">2650</td>
+													<td>
+														<span class="thumb">
+															<img class="cat-thumb" src="assets/img/clients/2.jpg"
+																alt="clients Image">
+															<span class="name">Capital Mines Pvt.</span>
+														</span>
+													</td>
+													<td>15/01/2023</td>
+													<td>Zara nails</td>
+													<td class="pending">Pending</td>
+													<td>
+														<div class="dropdown">
+															<button type="button"
+																class="btn dropdown-toggle dropdown-toggle-split"
+																data-bs-toggle="dropdown" aria-haspopup="true"
+																aria-expanded="false" data-display="static">
+																<span class="sr-only"><i
+																		class="ri-settings-3-line"></i></span>
+															</button>
+															<div class="dropdown-menu">
+																<a class="dropdown-item" href="#">Edit</a>
+																<a class="dropdown-item" href="#">Delete</a>
+															</div>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="token">2365</td>
+													<td>
+														<span class="thumb">
+															<img class="cat-thumb" src="assets/img/clients/3.jpg"
+																alt="clients Image">
+															<span class="name">Myras infitech.</span>
+														</span>
+													</td>
+													<td>02/08/2022</td>
+													<td>Olive Yew</td>
+													<td class="close">Close</td>
+													<td>
+														<div class="dropdown">
+															<button type="button"
+																class="btn dropdown-toggle dropdown-toggle-split"
+																data-bs-toggle="dropdown" aria-haspopup="true"
+																aria-expanded="false" data-display="static">
+																<span class="sr-only"><i
+																		class="ri-settings-3-line"></i></span>
+															</button>
+															<div class="dropdown-menu">
+																<a class="dropdown-item" href="#">Edit</a>
+																<a class="dropdown-item" href="#">Delete</a>
+															</div>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="token">2205</td>
+													<td>
+														<span class="thumb">
+															<img class="cat-thumb" src="assets/img/clients/4.jpg"
+																alt="clients Image">
+															<span class="name">Gujarat agro LLP.</span>
+														</span>
+													</td>
+													<td>23/02/2023</td>
+													<td>Allie Grater</td>
+													<td class="success">Success</td>
+													<td>
+														<div class="dropdown">
+															<button type="button"
+																class="btn dropdown-toggle dropdown-toggle-split"
+																data-bs-toggle="dropdown" aria-haspopup="true"
+																aria-expanded="false" data-display="static">
+																<span class="sr-only"><i
+																		class="ri-settings-3-line"></i></span>
+															</button>
+															<div class="dropdown-menu">
+																<a class="dropdown-item" href="#">Edit</a>
+																<a class="dropdown-item" href="#">Delete</a>
+															</div>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="token">2187</td>
+													<td>
+														<span class="thumb">
+															<img class="cat-thumb" src="assets/img/clients/5.jpg"
+																alt="clients Image">
+															<span class="name">KK Food LLC.</span>
+														</span>
+													</td>
+													<td>17/01/2022</td>
+													<td>Stanley Knife</td>
+													<td class="active">ACTIVE</td>
+													<td>
+														<div class="dropdown">
+															<button type="button"
+																class="btn dropdown-toggle dropdown-toggle-split"
+																data-bs-toggle="dropdown" aria-haspopup="true"
+																aria-expanded="false" data-display="static">
+																<span class="sr-only"><i
+																		class="ri-settings-3-line"></i></span>
+															</button>
+															<div class="dropdown-menu">
+																<a class="dropdown-item" href="#">Edit</a>
+																<a class="dropdown-item" href="#">Delete</a>
+															</div>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="token">2050</td>
+													<td>
+														<span class="thumb">
+															<img class="cat-thumb" src="assets/img/clients/6.jpg"
+																alt="clients Image">
+															<span class="name">Maruti agro.</span>
+														</span>
+													</td>
+													<td>09/09/2022</td>
+													<td>Zara nails</td>
+													<td class="close">Close</td>
+													<td>
+														<div class="dropdown">
+															<button type="button"
+																class="btn dropdown-toggle dropdown-toggle-split"
+																data-bs-toggle="dropdown" aria-haspopup="true"
+																aria-expanded="false" data-display="static">
+																<span class="sr-only"><i
+																		class="ri-settings-3-line"></i></span>
+															</button>
+															<div class="dropdown-menu">
+																<a class="dropdown-item" href="#">Edit</a>
+																<a class="dropdown-item" href="#">Delete</a>
+															</div>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="token">1995</td>
+													<td>
+														<span class="thumb">
+															<img class="cat-thumb" src="assets/img/clients/7.jpg"
+																alt="clients Image">
+															<span class="name">Monsy pvt.</span>
+														</span>
+													</td>
+													<td>11/08/2022</td>
+													<td>Ivan Itchinos</td>
+													<td class="success">success</td>
+													<td>
+														<div class="dropdown">
+															<button type="button"
+																class="btn dropdown-toggle dropdown-toggle-split"
+																data-bs-toggle="dropdown" aria-haspopup="true"
+																aria-expanded="false" data-display="static">
+																<span class="sr-only"><i
+																		class="ri-settings-3-line"></i></span>
+															</button>
+															<div class="dropdown-menu">
+																<a class="dropdown-item" href="#">Edit</a>
+																<a class="dropdown-item" href="#">Delete</a>
+															</div>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="token">1985</td>
+													<td>
+														<span class="thumb">
+															<img class="cat-thumb" src="assets/img/clients/8.jpg"
+																alt="clients Image">
+															<span class="name">Trinity info.</span>
+														</span>
+													</td>
+													<td>19/12/2021</td>
+													<td>Wiley Waites</td>
+													<td class="success">success</td>
+													<td>
+														<div class="dropdown">
+															<button type="button"
+																class="btn dropdown-toggle dropdown-toggle-split"
+																data-bs-toggle="dropdown" aria-haspopup="true"
+																aria-expanded="false" data-display="static">
+																<span class="sr-only"><i
+																		class="ri-settings-3-line"></i></span>
+															</button>
+															<div class="dropdown-menu">
+																<a class="dropdown-item" href="#">Edit</a>
+																<a class="dropdown-item" href="#">Delete</a>
+															</div>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="token">1945</td>
+													<td>
+														<span class="thumb">
+															<img class="cat-thumb" src="assets/img/clients/9.jpg"
+																alt="clients Image">
+															<span class="name">Miletone Gems.</span>
+														</span>
+													</td>
+													<td>06/05/2021</td>
+													<td>Sarah Moanees</td>
+													<td class="pending">pending</td>
+													<td>
+														<div class="dropdown">
+															<button type="button"
+																class="btn dropdown-toggle dropdown-toggle-split"
+																data-bs-toggle="dropdown" aria-haspopup="true"
+																aria-expanded="false" data-display="static">
+																<span class="sr-only"><i
+																		class="ri-settings-3-line"></i></span>
+															</button>
+															<div class="dropdown-menu">
+																<a class="dropdown-item" href="#">Edit</a>
+																<a class="dropdown-item" href="#">Delete</a>
+															</div>
+														</div>
+													</td>
+												</tr>
+												<tr>
+													<td class="token">1865</td>
+													<td>
+														<span class="thumb">
+															<img class="cat-thumb" src="assets/img/clients/10.jpg"
+																alt="clients Image">
+															<span class="name">Lightbeam Pvt.</span>
+														</span>
+													</td>
+													<td>01/01/2021</td>
+													<td>Anne Ortha</td>
+													<td class="active">ACTIVE</td>
+													<td>
+														<div class="dropdown">
+															<button type="button"
+																class="btn dropdown-toggle dropdown-toggle-split"
+																data-bs-toggle="dropdown" aria-haspopup="true"
+																aria-expanded="false" data-display="static">
+																<span class="sr-only"><i
+																		class="ri-settings-3-line"></i></span>
+															</button>
+															<div class="dropdown-menu">
+																<a class="dropdown-item" href="#">Edit</a>
+																<a class="dropdown-item" href="#">Delete</a>
+															</div>
+														</div>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="cx-card revenue-overview">
+								<div class="cx-card-header border-0">
+									<h4 class="cx-card-title">Sessions</h4>
+									<div class="header-tools">
+										<div class="header-tools">
+											<div class="dropdown" title="Settings">
+												<a class="dropdown-toggle icon" href="javascript:void(0)" data-bs-toggle="dropdown" aria-expanded="false">
+													<i class="mdi mdi-dots-vertical"></i>
+												</a>
+												<ul class="dropdown-menu">
+													<li><a class="dropdown-item" href="#">Today</a></li>
+													<li><a class="dropdown-item" href="#">Yesterday</a></li>
+													<li><a class="dropdown-item" href="#">Last 7 Days</a></li>
+													<li><a class="dropdown-item" href="#">This Month</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="cx-card-content">
+									<div class="row">
+										<div class="col-md-12">
+											<div class="cx-chart-content">
+												<div id="sessionsChart"></div>
+											</div>
+										</div>
+										<div class="col-md-12">
+											<ul class="cx-chart-detail">
+												<li><span class="name">Firewalls - 5</span> <span
+														class="data">10/100%</span></li>
+												<li><span class="name">Servers - 535</span> <span
+														class="data">58/100%</span></li>
+												<li><span class="name">Request - 548k</span> <span
+														class="data">67/100%</span></li>
+												<li><span class="name">Response - 530k</span> <span
+														class="data">59/100%</span></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="cx-card revenue-overview">
+								<div class="cx-card-header border-0">
+									<h4 class="cx-card-title">Activity</h4>
+									<div class="header-tools">
+										<a href="#" class="link icon" title="View More">
+											<i class="ri-arrow-right-line"></i>
+										</a>
+									</div>
+								</div>
+								<div class="sub-card-body">
+									<div class="activity-list">
+										<ul>
+											<li>
+												<span class="date-time"><span class="date">8 Thu</span><span
+														class="time">11:30 AM - 05:10 PM
+													</span></span>
+												<p class="title">Project Submitted from Smith</p>
+												<p class="detail">Lorem Ipsum is simply dummy text of the printing
+													and lorem is industry.</p>
+											</li>
+											<li>
+												<span class="date-time warn"><span class="date">7 Wed</span><span
+														class="time">1:30 PM - 02:30 PM
+													</span></span>
+												<p class="title">Morgus pvt - project due</p>
+												<p class="detail">Project modul delay for some bugs.</p>
+											</li>
+											<li>
+												<span class="date-time"><span class="date">6 Tue</span><span
+														class="time">9:30 AM - 11:00 AM
+													</span></span>
+												<p class="title">Interview for management dept.</p>
+												<p class="detail">There are many variations of passages of Lorem
+													Ipsum available.</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xxl-4">
+					<div class="cx-sticky">
+						<div class="row">
+							<div class="col-xxl-12 col-xl-6 col-md-12">
+								<div class="sub-card m-b-30">
+									<div class="cx-card-header border-0">
+										<h4 class="cx-card-title">Profit</h4>
+										<div class="header-tools">
+											<div class="dropdown" title="Settings">
+												<a class="dropdown-toggle icon" href="javascript:void(0)" data-bs-toggle="dropdown" aria-expanded="false">
+													<i class="mdi mdi-dots-vertical"></i>
+												</a>
+												<ul class="dropdown-menu">
+													<li><a class="dropdown-item" href="#">Today</a></li>
+													<li><a class="dropdown-item" href="#">Yesterday</a></li>
+													<li><a class="dropdown-item" href="#">Last 7 Days</a></li>
+													<li><a class="dropdown-item" href="#">This Month</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="sub-card-body">
+										<div class="cx-chart-content mt-m-24">
+											<div id="profitChart"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xxl-12 col-xl-6 col-md-12">
+								<div class="sub-card m-b-30">
+									<div class="cx-card-header border-0">
+										<h4 class="cx-card-title">Campaigns</h4>
+										<div class="header-tools">
+											<div class="dropdown" title="Settings">
+												<a class="dropdown-toggle icon" href="javascript:void(0)" data-bs-toggle="dropdown" aria-expanded="false">
+													<i class="mdi mdi-dots-vertical"></i>
+												</a>
+												<ul class="dropdown-menu">
+													<li><a class="dropdown-item" href="#">Today</a></li>
+													<li><a class="dropdown-item" href="#">Yesterday</a></li>
+													<li><a class="dropdown-item" href="#">Last 7 Days</a></li>
+													<li><a class="dropdown-item" href="#">This Month</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="sub-card-body">
+										<div class="cx-chart-content">
+											<div id="campaignsChart" class="mb-m-20"></div>
+										</div>
+										<div class="cx-chart-header-2">
+											<div class="block">
+												<h6>Reached</h6>
+												<h5><span class="up">96%<i class="ri-arrow-up-line"></i></span>825k</h5>
+											</div>
+											<div class="block">
+												<h6>Expense</h6>
+												<h5><span class="down">96%<i class="ri-arrow-down-line"></i></span>$84k
+												</h5>
+											</div>
+											<div class="block">
+												<h6>Deals</h6>
+												<h5><span class="up">72%<i class="ri-arrow-up-line"></i></span>2.5k</h5>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xxl-12 col-xl-6 col-md-12">
+								<div class="sub-card m-b-30">
+									<div class="cx-card-header border-0">
+										<h4 class="cx-card-title">Events</h4>
+										<div class="header-tools">
+											<a href="#" class="link icon" title="View More"><i
+													class="ri-arrow-right-line"></i></a>
+										</div>
+									</div>
+									<div class="sub-card-body">
+										<div class="cx-calendar">
+											<div id="eventCalendar" class="calendar-container"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-xxl-12 col-xl-6 col-md-12">
+								<div class="sub-card m-b-30">
+									<div class="cx-card-header border-0">
+										<h4 class="cx-card-title">Todo</h4>
+										<div class="header-tools">
+											<div class="dropdown" title="Settings">
+												<a class="dropdown-toggle icon" href="javascript:void(0)" data-bs-toggle="dropdown" aria-expanded="false">
+													<i class="mdi mdi-dots-vertical"></i>
+												</a>
+												<ul class="dropdown-menu">
+													<li><a class="dropdown-item" href="#">Rename</a></li>
+													<li><a class="dropdown-item" href="#">Add note</a></li>
+													<li><a class="dropdown-item" href="#">Remove</a></li>
+													<li><a class="dropdown-item" href="#">edit note</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="sub-card-body">
+										<div class="todo-list">
+											<form>
+												<div class="form-group">
+													<input type="checkbox" id="todo1" name="todo" value="todo">
+													<label for="todo1">
+														<span>Schedule team meeting for the next admin project and
+															assign
+															task.</span>
+														<span class="date-time">6:30AM, Today</span>
+													</label>
+												</div>
+												<div class="form-group">
+													<input type="checkbox" id="todo2" name="todo" value="todo" checked>
+													<label for="todo2">
+														<span>Create employee list with role for upcoming event.</span>
+														<span class="date-time">8AM, Today</span>
+													</label>
+												</div>
+												<div class="form-group">
+													<input type="checkbox" id="todo3" name="todo" value="todo">
+													<label for="todo3">
+														<span>Meeting with lorence company for marketing and
+															campaign.</span>
+														<span class="date-time">10:45AM, Today</span>
+													</label>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer>
+			<div class="copyright">
+				<p><span id="copyright_year"></span> with love.</p>
+				<p>Jhathu Maharaj</p>
+			</div>
+		</footer>
+
+	</main>
+
+	<!-- Vendor Custom -->
+	<script src="assets/js/jquery-3.7.1.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/apexcharts.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/moment.min.js"></script>
+	<script src="assets/js/daterangepicker.js"></script>
+	<script src="assets/js/jquery.simple-calendar.js"></script>
+	<script src="assets/js/jquery.datatables.min.js"></script>
+	<script src="assets/js/fullcalendar.min.js"></script>
+	<script src="assets/js/slick.min.js"></script>
+
+	<!-- Main Custom -->
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/chart-data.js"></script>
+</body>
+
+</html>
